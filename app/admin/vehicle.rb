@@ -1,4 +1,5 @@
 ActiveAdmin.register Vehicle do
+  permit_params :title, :price, :description, :photo
 
   
   # See permitted parameters documentation:
